@@ -1,0 +1,75 @@
+body{
+    
+    background-image: url("../images/bg.jpeg");
+    background-attachment: fixed;
+}
+
+p{
+    font-family: Georgia;
+    font-size: 1em;
+}   
+
+
+header{
+    font-family: Arial;
+    font-size: 1em;
+}
+
+main{
+    clear: both;
+    margin-top: 60px;
+}
+
+
+h1,h2{
+    clear: both;
+    font-family: Arial;
+}
+
+
+
+
+footer{
+    clear: both;
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+img{
+
+   padding: 40px;
+    
+}
+
+.nav{
+    text-transform: uppercase;
+    
+}
+
+
+#movies{
+    padding: 50px;
+    float:left;
+}
+
+a:link { /* pseudoclass for the link state of links */
+  color: blueviolet;
+}
+
+a:visited { /* pseudoclass for the visited state of links */
+  color: black;
+}
+
+a:hover { /* pseudoclass for the hover state of links */
+  color: deeppink;
+}
+
+/*a class that is specifically styled*/
+a.externallink{
+    color:brown;
+}
+
+a:active { /* pseudoclass for the active state of links */
+  color: rebeccapurple;
+}
